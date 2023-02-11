@@ -21,6 +21,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       backgroundColor: const Color.fromARGB(255, 245, 243, 243),
       drawer: const Drawer(),
+      floatingActionButton: FloatingActionButton(onPressed: (){},child:const Text("+"),),
       appBar: AppBar(
         title: const Text(
           "calculator",
