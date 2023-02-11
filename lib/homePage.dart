@@ -20,6 +20,7 @@ class _HomePageState extends State<HomePage> {
     Color lightblue = const Color.fromARGB(255, 189, 171, 169);
     return Scaffold(
       backgroundColor: const Color.fromARGB(255, 245, 243, 243),
+      drawer: const Drawer(),
       appBar: AppBar(
         title: const Text(
           "calculator",
@@ -279,7 +280,7 @@ class _HomePageState extends State<HomePage> {
               ),
             ),
           ],
-        )
+        ),
       ]),
     );
   }
